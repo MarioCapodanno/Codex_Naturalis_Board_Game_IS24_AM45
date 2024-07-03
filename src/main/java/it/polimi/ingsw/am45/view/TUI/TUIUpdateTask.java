@@ -24,9 +24,9 @@ public class TUIUpdateTask implements Runnable {
     /**
      * The run method is called when the thread executing this task is started.
      * It updates the chat view with the messages passed to the constructor.
-     * If the messages stack is the same as the chat view's messages stack, it does nothing.
+     * If the message stack is the same as the chat view's message stack, it does nothing.
      * Otherwise, it clears the chat view's global and private messages,
-     * then it iterates over the messages stack and adds each message to the chat view's global messages,
+     * then it iterates over the message stack and adds each message to the chat view's global messages,
      * and if a message is a private message, it also adds it to the chat view's private messages.
      */
     @Override
@@ -43,10 +43,10 @@ public class TUIUpdateTask implements Runnable {
             if (start != -1 && end != -1) {
                 String nick = message.substring(start + 1, end);
                 if (nick.equals(chatView.getGameView().getNick())) {
-                    String pvtMessage = message;
-                    pvtMessage = pvtMessage.replace("/" + nick, "private message: ");
-                    chatView.privateMessages.add(pvtMessage);
-                    chatView.messages.add(pvtMessage);
+                    message = message.replace("/" + nick, "private message: ");
+
+                    chatView.globalMessages.add(message);
+                    chatView.messages.add(message);
                 }
             }
             else {

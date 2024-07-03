@@ -130,33 +130,24 @@ public class ChatView {
      * Prints the private chat.
      * Prints the private chat messages.
      */
-    public void printPrivateChat() {
+    public void printFirstChat() {
 
-        try {
-            // Wait for the latch to reach zero
-            latch.await();
-
-            List<String> copyOfPrivateMessages;
-            synchronized (this.privateMessages) {
-                copyOfPrivateMessages = new ArrayList<>(privateMessages);
-            }
-
-            StringBuilder chatMessages = new StringBuilder();
-            chatMessages.append(" ┌──────────────────────────────────────┐\n");
-            chatMessages.append(" │            PRIVATE MESSAGES          │\n");
-            chatMessages.append(" │ (type 'exit' to return to the menu ) │\n");
-            chatMessages.append(" └──────────────────────────────────────┘\n");
-            for (String message : copyOfPrivateMessages) {
-                chatMessages.append(message).append("\n");
-            }
-            chatMessages.append(" └──────────────────────────────────────┘\n");
-            System.out.println(chatMessages);
-
-        } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
+        // Create a copy of globalMessages
+        List<String> copyOfGlobalMessages;
+        synchronized (this.globalMessages) {
+            copyOfGlobalMessages = new ArrayList<>(globalMessages);
         }
 
-        this.latch = new CountDownLatch(1);
+        StringBuilder chatMessages = new StringBuilder();
+        chatMessages.append(" ┌──────────────────────────────────────┐\n");
+        chatMessages.append(" │                 CHAT                 │\n");
+        chatMessages.append(" │ (type 'exit' to return to the menu ) │\n");
+        chatMessages.append(" └──────────────────────────────────────┘\n");
+        for (String message : copyOfGlobalMessages) {
+            chatMessages.append(message).append("\n");
+        }
+        chatMessages.append(" └──────────────────────────────────────┘\n");
+        System.out.println(chatMessages);
     }
 
     /**

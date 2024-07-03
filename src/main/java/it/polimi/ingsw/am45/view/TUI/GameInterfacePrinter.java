@@ -139,7 +139,7 @@ public class GameInterfacePrinter implements Listener {
         }
 
         if (isPrivateChatOpened) {
-            gameView.getChatViewController().printPrivateChat();
+            gameView.getChatViewController().printGlobalChat();
             System.out.println("Enter the nickname of the user you want to send a message to: ");
         }
     }

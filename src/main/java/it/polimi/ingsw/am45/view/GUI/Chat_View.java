@@ -88,6 +88,7 @@ public class Chat_View {
      * @param messages The new messages to be added to the chat.
      */
     public void updateChat(Stack<String> messages) {
+
         if (!started) {
             chatUpdatesQueue.add(messages);
             return;

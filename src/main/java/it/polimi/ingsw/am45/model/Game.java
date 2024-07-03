@@ -369,6 +369,7 @@ public class Game {
             return false;
         }
         if (getPlayerByNickname(nick).addPlayedCard(location, getPlayerByNickname(nick).getHand().getHandCards().get(position), scoreBoard, playerPos)) {
+            System.out.println("Playing the hand card at the position: " + position);
             GamesController.getInstance().sendResource(nick, this, getPlayerByNickname(nick).getResources());
             return true;
         }

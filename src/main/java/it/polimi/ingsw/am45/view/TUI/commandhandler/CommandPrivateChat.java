@@ -48,12 +48,10 @@ public class CommandPrivateChat extends Command {
      */
     @Override
     public void execute() {
-
         String userMessage = "";
         String receiver = "";
-        chatView.setPrivateChatOpen(true);
 
-        // Allow the user to send a private message
+
         while (!userMessage.equals("exit")) {
             chatView.init();
             chatView.timerUpdate();
@@ -79,7 +77,7 @@ public class CommandPrivateChat extends Command {
             userMessage = getUserMessage(userMessage, receiver);
             chatView.closeChat();
         }
-        chatView.setPrivateChatOpen(false);
+        chatView.setChatOpen(false);
     }
 
     /**
@@ -99,6 +97,7 @@ public class CommandPrivateChat extends Command {
         } else if (!isUserOnline(receiver)) {
             System.out.println("The user you are trying to send a message to is not online!");
             timerBeforeRefresh();
+            System.out.println("Enter the nickname of the user you want to send a message to: ");
         }
         return userMessage;
     }

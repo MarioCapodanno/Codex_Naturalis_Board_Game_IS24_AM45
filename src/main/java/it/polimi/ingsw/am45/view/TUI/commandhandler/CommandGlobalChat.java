@@ -47,8 +47,7 @@ public class CommandGlobalChat extends Command {
     @Override
     public void execute() {
         String userMessage = "";
-        // Allow the user to send a global message
-        gameView.refreshTerminal();
+
         while (!userMessage.equals("exit")) {
             chatView.init();
             chatView.timerUpdate();

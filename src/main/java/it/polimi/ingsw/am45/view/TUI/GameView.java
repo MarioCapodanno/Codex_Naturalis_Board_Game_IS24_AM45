@@ -184,7 +184,7 @@ public class GameView extends ClientView {
             }
         }
 
-        boolean cardPlayedSuccessfully = cardPlayed == 1;
+        boolean cardPlayedSuccessfully = (cardPlayed == 1);
         cardPlayed = 0;
 
         return cardPlayedSuccessfully;
@@ -598,6 +598,7 @@ public class GameView extends ClientView {
     public ChatView getChatViewController() {
         return chatViewController;
     }
+
 
     private void timerBeforeRefresh() {
         try {

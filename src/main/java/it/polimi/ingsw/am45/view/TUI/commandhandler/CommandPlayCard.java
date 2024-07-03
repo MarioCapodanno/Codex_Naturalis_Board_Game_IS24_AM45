@@ -3,7 +3,6 @@ package it.polimi.ingsw.am45.view.TUI.commandhandler;
 import it.polimi.ingsw.am45.view.TUI.GameView;
 import it.polimi.ingsw.am45.view.TUI.HandView;
 import it.polimi.ingsw.am45.view.TUI.MarketView;
-import it.polimi.ingsw.am45.view.TUI.commandhandler.AsciiArtHelper.AsciiArtHelper;
 import it.polimi.ingsw.am45.view.modelview.Market;
 
 import java.io.BufferedReader;
@@ -20,6 +19,8 @@ import java.util.List;
 public class CommandPlayCard {
     private final HandView handView;
     private final GameView gameView;
+
+    private final MarketView marketView;
     private List<String> hand;
     private boolean exiting = false;
 
@@ -34,6 +35,7 @@ public class CommandPlayCard {
     public CommandPlayCard(GameView gameView) {
         this.gameView = gameView;
         this.handView = gameView.getHandViewController();
+        this.marketView = gameView.getMarketViewController();
     }
 
     /**
@@ -61,12 +63,12 @@ public class CommandPlayCard {
             if (this.exiting) {
                 return;
             }
+
             // Ask for the position to play the card
             int[] position = getCardPosition();
 
             // Play the chosen card
             if (playCard(chosenCard, position)) {
-                System.out.println("Card played successfully");
                 cardPlayed = true;
             } else {
                 System.out.println("Card could not be played. Please try again.");
@@ -86,7 +88,7 @@ public class CommandPlayCard {
     private int getUserChoice() {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         int chosenCard = -1;
-        while (chosenCard < 0 || chosenCard >= hand.size()) {
+        while (chosenCard < 1 || chosenCard > hand.size()) {
             try {
                 System.out.println("Choose a card to play (enter a number between 1 and 3 ");
                 String input = reader.readLine();
@@ -150,7 +152,7 @@ public class CommandPlayCard {
     private boolean playCard(int chosenCard, int[] position) {
         System.out.println("Playing card: at position: " + Arrays.toString(position));
 
-        return handView.playCard(chosenCard, position);
+        return handView.playCard(chosenCard - 1, position);
     }
 
     /**
@@ -161,7 +163,7 @@ public class CommandPlayCard {
         int chosenOption = -1;
 
 
-        List<String> marketCards = Market.getInstance().printMarketTUI(new ArrayList<>());
+        List<String> marketCards = marketView.printMarketTUI(new ArrayList<>());
         int counter = 1;
         for (int i = 0; i < marketCards.size(); i++) {
             if (i % 9 == 0) {
@@ -173,25 +175,22 @@ public class CommandPlayCard {
         }
 
         // Get the card type to draw from the deck or market
-        chosenOption = getDrawCardType(chosenOption, reader);
+        chosenOption = getDrawCardType(reader);
 
-        if (handView.drawCardFromMarket(chosenOption)) {
-            // If the card was drawn successfully, update the user's hand
-            System.out.println("Card drawn successfully");
-        } else {
-            // If the card could not be drawn, display an error message and ask the user to try again
+        while (!handView.drawCardFromMarket(chosenOption -1)) {
             System.out.println("Card could not be drawn from the market. Please try again.");
-            getDrawCardType(chosenOption, reader);
+            chosenOption = getDrawCardType(reader);
         }
+
+        System.out.println("Card drawn successfully");
     }
 
     /**
      * Gets the type of card to draw from the deck or market.
      *
-     * @param chosenOption the chosen option (1 for deck, 2 for market)
-     * @param reader       the BufferedReader to read user input
+     * @param reader The BufferedReader to read user input
      */
-    private static int getDrawCardType(int chosenOption, BufferedReader reader) {
+    private static int getDrawCardType(BufferedReader reader) {
         int chosenCard = -1;
             // Draw a card from the deck
             System.out.println("Choose a card to draw from the market (1,2,3,4,5,6):");
@@ -202,7 +201,7 @@ public class CommandPlayCard {
                         System.out.println("Input cannot be empty. Please enter a number.");
                         continue;
                     }
-                    chosenCard = Integer.parseInt(input);
+                    chosenCard = Integer.parseInt(input) ;
                 } catch (IOException | NumberFormatException e) {
                     System.out.println("Invalid input. Please retry.");
                 }
