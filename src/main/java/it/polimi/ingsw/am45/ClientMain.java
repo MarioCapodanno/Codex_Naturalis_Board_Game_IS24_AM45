@@ -43,7 +43,7 @@ public class ClientMain {
             try {
                 selection = Integer.parseInt(input);
             } catch (NumberFormatException e) {
-                System.out.println("Invalid input, starting GUI mode and TCP connection...");
+                System.out.println("Invalid input, starting GUI mode...");
                 new StartingGUI().start();
             }
             if (selection == 1 || selection == 3) {
@@ -63,7 +63,7 @@ public class ClientMain {
                 //start the client in gui mode
                 new StartingGUI().start();
             } else {
-                System.out.println("Invalid input, starting GUI mode and TCP connection...");
+                System.out.println("Invalid input, starting GUI mode...");
                 new StartingGUI().start();
             }
         }
@@ -80,10 +80,7 @@ public class ClientMain {
                 case "-tui":
                     if (i + 1 < args.length) {
                         switch (args[i + 1].toLowerCase()) {
-                            case "-tcp":
-                                new TUI(ConnectionType.TCP).init();
-                                return true;
-                            case "-rmi":
+                            case "-tcp", "-rmi":
                                 new TUI(ConnectionType.RMI).init();
                                 return true;
                         }
