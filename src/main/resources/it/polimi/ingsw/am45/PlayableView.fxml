@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane fx:id="parentPane" prefHeight="2000.0" prefWidth="4000.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+      <ImageView fitHeight="2000.0" fitWidth="4000.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/boardBG.png" />
+         </image>
+      </ImageView>
+
+
+    <AnchorPane fx:id="cutto" layoutX="2000.0" layoutY="1000.0">
+      <!-- ImageView to cover the entire pane -->
+      <ImageView fx:id="initialImg" fitHeight="145.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true">
+        <!-- Set your image source -->
+        <Image url="@cardpng/301_back.png" />
+      </ImageView>
+
+      <!-- Buttons in each corner -->
+      <Button fx:id="tl" opacity="0.5" AnchorPane.leftAnchor="0" AnchorPane.topAnchor="0" />
+      <Button fx:id="tr" opacity="0.5" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" />
+      <Button fx:id="bl" opacity="0.5" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" />
+      <Button fx:id="br" opacity="0.5" AnchorPane.bottomAnchor="0" AnchorPane.rightAnchor="0" />
+    </AnchorPane>
+
+    <Button id="choiceCard" fx:id="choiceCard" contentDisplay="TOP" layoutX="1969.0" layoutY="959.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="190.0" text="">
+      <graphic>
+        <ImageView fitHeight="150" fitWidth="190">
+          <image>
+            <Image url="@cardpng/301_back.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+    <Button id="obj1Card" fx:id="obj1Card" contentDisplay="TOP" layoutX="2191.0" layoutY="959.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="190.0" text="">
+      <graphic>
+        <ImageView fitHeight="150" fitWidth="190">
+          <image>
+            <Image url="@cardpng/301_back.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+    <Button id="obj2Card" fx:id="obj2Card" contentDisplay="TOP" layoutX="1745.0" layoutY="959.0" mnemonicParsing="false" prefHeight="150.0" prefWidth="190.0" text="">
+      <graphic>
+        <ImageView fitHeight="150" fitWidth="190">
+          <image>
+            <Image url="@cardpng/301_back.png" />
+          </image>
+        </ImageView>
+      </graphic>
+    </Button>
+      <Button fx:id="choiceBtn" layoutX="2008.0" layoutY="1149.0" mnemonicParsing="false" style="-fx-background-color: #349748; -fx-background-radius: 15px;" text="Choose cards" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+  </children>
+</AnchorPane>

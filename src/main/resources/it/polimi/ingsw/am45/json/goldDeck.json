@@ -1,0 +1,2361 @@
+{
+  "goldDeck": [
+    {
+      "id": 2101,
+      "goldCardType": "resource",
+      "pointMultiplier": [
+        0, 0, 0, 0, 1, 0, 0
+      ],
+      "frontImagePath": "2101.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "", "EMPTY", "FEATHER", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "cardCost": [
+        1, 0, 0, 2, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │1|▲│        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │ ♥♥♦ │       │ ▲ │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "┼───▲"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2102,
+      "goldCardType": "resource",
+      "frontImagePath": "2102.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "BOTTLE", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 0, 1, 0
+      ],
+      "cardCost": [
+        0, 1, 0, 2, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │1|•│        │ • │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐       ┌───┤",
+        "│           │ ♥♥♣ │       │   │",
+        "└───────────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───•",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2103,
+      "goldCardType": "resource",
+      "frontImagePath": "2103.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "SCROLL", "EMPTY", "", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 0, 0, 1
+      ],
+      "cardCost": [
+        0, 0, 1, 2, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│ ■ │        │1|■│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│   │       │ ♥♥♠ │           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "■───┼",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2104,
+      "goldCardType": "angle",
+      "frontImagePath": "2104.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "EMPTY", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        1, 0, 0, 3, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │2|╬│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐       ┌───┤",
+        "│           │♥♥♥ ♦│       │   │",
+        "└───────────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2105,
+      "goldCardType": "angle",
+      "frontImagePath": "2105.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "EMPTY", "", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        0, 1, 0, 3, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │2|╬│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│   │       │♥♥♥ ♣│           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2106,
+      "goldCardType": "angle",
+      "frontImagePath": "2106.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "EMPTY", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        0, 0, 1, 3, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │2|╬│            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │♥♥♥ ♠│       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2107,
+      "goldCardType": "instant",
+      "frontImagePath": "2107.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "", "BOTTLE"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 0, 0, 3, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │ 3 │            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│ • │       │ ♥♥♥ │           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "•───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2108,
+      "goldCardType": "instant",
+      "frontImagePath": "2108.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "FEATHER", "EMPTY", "", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 0, 0, 3, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│ ▲ │        │ 3 │        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐           │",
+        "│           │ ♥♥♥ │           │",
+        "└───────────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "▲───┼",
+        "│   │",
+        "└───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2109,
+      "goldCardType": "instant",
+      "frontImagePath": "2109.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "", "SCROLL", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 0, 0, 3, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │ 3 │        │ ■ │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐       ┌───┤",
+        "│           │ ♥♥♥ │       │   │",
+        "└───────────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───■",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2110,
+      "goldCardType": "instant",
+      "frontImagePath": "2110.png",
+      "backImagePath": "gold_red_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "FUNGI", "EMPTY"
+        ]
+      ],
+      "instantPoints": 5,
+      "cardCost": [
+        0, 0, 0, 5, 0, 0, 0
+      ],
+      "cardColor": "RED",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │ 5 │            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│   │       │♥♥♥♥♥│           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2201,
+      "goldCardType": "resource",
+      "frontImagePath": "2201.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "FEATHER", "EMPTY", "", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 1, 0, 0
+      ],
+      "cardCost": [
+        0, 2, 1, 0, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│ ▲ │        │1|▲│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│   │       │ ♣♣♠ │           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "▲───┼",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2202,
+      "goldCardType": "resource",
+      "frontImagePath": "2202.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "SCROLL", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 0, 0, 1
+      ],
+      "cardCost": [
+        0, 2, 0, 1, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │1|■│        │ ■ │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │ ♣♣♥ │       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───■",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2203,
+      "goldCardType": "resource",
+      "frontImagePath": "2203.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "EMPTY", "BOTTLE"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 0, 1, 0
+      ],
+      "cardCost": [
+        1, 2, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │1|•│            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│ • │       │ ♣♣♦ │       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "•───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2204,
+      "goldCardType": "angle",
+      "frontImagePath": "2204.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "", "EMPTY", "EMPTY", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        0, 3, 1, 0, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │2|╬│        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │♣♣♣ ♠│       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2205,
+      "goldCardType": "angle",
+      "frontImagePath": "2205.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "EMPTY", "", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        1, 3, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │2|╬│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│   │       │♣♣♣ ♦│           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2206,
+      "goldCardType": "angle",
+      "frontImagePath": "2206.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "EMPTY", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        0, 3, 0, 1, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │2|╬│            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │♣♣♣ ♥│       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2207,
+      "goldCardType": "instant",
+      "frontImagePath": "2207.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "", "FEATHER"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 3, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │ 3 │            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│ ▲ │       │ ♣♣♣ │           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "▲───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2208,
+      "goldCardType": "instant",
+      "frontImagePath": "2208.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "SCROLL", "EMPTY", "", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 3, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│ ■ │        │ 3 │        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐           │",
+        "│           │ ♣♣♣ │           │",
+        "└───────────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "■───┼",
+        "│   │",
+        "└───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2209,
+      "goldCardType": "instant",
+      "frontImagePath": "2209.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "", "BOTTLE", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 3, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │ 3 │        │ • │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐       ┌───┤",
+        "│           │ ♣♣♣ │       │   │",
+        "└───────────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───•",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2210,
+      "goldCardType": "instant",
+      "frontImagePath": "2210.png",
+      "backImagePath": "gold_green_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "EMPTY", "", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "PLANT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 5,
+      "cardCost": [
+        0, 5, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "GREEN",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 5 │        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐           │",
+        "│           │♣♣♣♣♣│           │",
+        "└───────────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "└───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2301,
+      "goldCardType": "resource",
+      "frontImagePath": "2301.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "BOTTLE", "EMPTY", "", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 0, 1, 0
+      ],
+      "cardCost": [
+        2, 0, 1, 0, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│ • │        │1|•│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│   │       │ ♦♦♠ │           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "•───┼",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2302,
+      "goldCardType": "resource",
+      "frontImagePath": "2302.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "", "EMPTY", "SCROLL", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 0, 0, 1
+      ],
+      "cardCost": [
+        2, 1, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │1|■│        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │ ♦♦♣ │       │ ■ │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "┼───■"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2303,
+      "goldCardType": "resource",
+      "frontImagePath": "2303.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "EMPTY", "FEATHER"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 1, 0, 0
+      ],
+      "cardCost": [
+        2, 0, 0, 1, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │1|▲│            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│ ▲ │       │ ♦♦♥ │       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "▲───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2304,
+      "goldCardType": "angle",
+      "frontImagePath": "2304.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "EMPTY", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        3, 0, 1, 0, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │2|╬│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐       ┌───┤",
+        "│           │♦♦♦ ♠│       │   │",
+        "└───────────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2305,
+      "goldCardType": "angle",
+      "frontImagePath": "2305.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "EMPTY", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        3, 0, 0, 1, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │2|╬│            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │♦♦♦ ♥│       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2306,
+      "goldCardType": "angle",
+      "frontImagePath": "2306.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "", "EMPTY", "EMPTY", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        3, 1, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │2|╬│        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │♦♦♦ ♣│       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2307,
+      "goldCardType": "instant",
+      "frontImagePath": "2307.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "", "SCROLL"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        3, 0, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │ 3 │            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│ ▲ │       │ ♦♦♦ │           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "▲───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2308,
+      "goldCardType": "instant",
+      "frontImagePath": "2308.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "BOTTLE", "", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        3, 0, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 3 │        │ • │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐           │",
+        "│           │ ♦♦♦ │           │",
+        "└───────────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───•",
+        "│   │",
+        "└───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2309,
+      "goldCardType": "instant",
+      "frontImagePath": "2309.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "", "EMPTY", "FEATHER", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        3, 0, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │ 3 │        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐       ┌───┤",
+        "│           │ ♦♦♦ │       │ ▲ │",
+        "└───────────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "└───▲"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2310,
+      "goldCardType": "instant",
+      "frontImagePath": "2310.png",
+      "backImagePath": "gold_blue_back.png",
+      "materialValues": [
+        [
+          "", "EMPTY", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "ANIMAL", "EMPTY"
+        ]
+      ],
+      "instantPoints": 5,
+      "cardCost": [
+        5, 0, 0, 0, 0, 0, 0
+      ],
+      "cardColor": "BLUE",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │ 5 │        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐       ┌───┤",
+        "│           │♦♦♦♦♦│       │   │",
+        "└───────────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2401,
+      "goldCardType": "resource",
+      "frontImagePath": "2401.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "FEATHER", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 1, 0, 0
+      ],
+      "cardCost": [
+        0, 1, 2, 0, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │1|▲│        │ ▲ │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │ ♠♠♣ │       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───▲",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2402,
+      "goldCardType": "resource",
+      "frontImagePath": "2402.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "EMPTY", "SCROLL"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 0, 0, 1
+      ],
+      "cardCost": [
+        1, 0, 2, 0, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │1│■│            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│ ■ │       │ ♠♠♦ │       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "■───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2403,
+      "goldCardType": "resource",
+      "frontImagePath": "2403.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "", "EMPTY", "BOTTLE", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 1,
+      "pointMultiplier": [
+        0, 0, 0, 0, 0, 1, 0
+      ],
+      "cardCost": [
+        0, 0, 2, 1, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │1|•│        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │ ♠♠♥ │       │ • │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "┼───•"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2404,
+      "goldCardType": "angle",
+      "frontImagePath": "2404.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "EMPTY", "EMPTY", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        1, 0, 3, 0, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │2|╬│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐       ┌───┤",
+        "│           │♠♠♠ ♦│       │   │",
+        "└───────────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2405,
+      "goldCardType": "angle",
+      "frontImagePath": "2405.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "EMPTY", "", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        0, 1, 3, 0, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │2|╬│        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│   │       │♠♠♠ ♣│           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2406,
+      "goldCardType": "angle",
+      "frontImagePath": "2406.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "", "EMPTY", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 2,
+      "cardCost": [
+        0, 0, 3, 1, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │2|╬│            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│   │       │♠♠♠ ♥│       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2407,
+      "goldCardType": "instant",
+      "frontImagePath": "2407.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "BOTTLE", "", "", "EMPTY"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 0, 3, 0, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│ • │        │ 3 │            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐           │",
+        "│   │       │ ♠♠♠ │           │",
+        "└───┴───────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "•───┐",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2408,
+      "goldCardType": "instant",
+      "frontImagePath": "2408.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "SCROLL", "", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 0, 3, 0, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 3 │        │ ■ │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐           │",
+        "│           │ ♠♠♠ │           │",
+        "└───────────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───■",
+        "│   │",
+        "└───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2409,
+      "goldCardType": "instant",
+      "frontImagePath": "2409.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "", "", "EMPTY", "FEATHER"
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 3,
+      "cardCost": [
+        0, 0, 3, 0, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌────────────┬───┬────────────┐",
+        "│            │ 3 │            │",
+        "│            └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐       ┌─────┐       ┌───┤",
+        "│ ▲ │       │ ♠♠♠ │       │   │",
+        "└───┴───────┴─────┴───────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┐",
+        "│   │",
+        "▲───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }, {
+      "id": 2410,
+      "goldCardType": "instant",
+      "frontImagePath": "2410.png",
+      "backImagePath": "gold_violet_back.png",
+      "materialValues": [
+        [
+          "EMPTY", "EMPTY", "", ""
+        ], [
+          "EMPTY", "EMPTY", "EMPTY", "EMPTY"
+        ]
+      ],
+      "centerValues": [
+        [
+          "EMPTY"
+        ], [
+          "INSECT", "EMPTY"
+        ]
+      ],
+      "instantPoints": 5,
+      "cardCost": [
+        0, 0, 5, 0, 0, 0, 0
+      ],
+      "cardColor": "VIOLET",
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 5 │        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│           ┌─────┐           │",
+        "│           │♠♠♠♠♠│           │",
+        "└───────────┴─────┴───────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "└───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    }
+  ]
+}

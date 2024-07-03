@@ -1,0 +1,305 @@
+{
+  "objectiveDeck": [
+    {
+      "id": 401,
+      "imagePath": "401.png",
+      "objectiveType": "diagonalObjectiveCard",
+      "points": 2,
+      "color": "RED",
+      "direction": "leftToRight",
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │             ┌───┐      │",
+        "│└───┘             │ ♥ │      │",
+        "│              ┌───┼───┘      │",
+        "│              │ ♥ │          │",
+        "│          ┌───┼───┘          │",
+        "│          │ ♥ │              │",
+        "│          └───┘              │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 3 consecutive red cards put in a diagonal line (bottom left to top right)"
+    }, {
+      "id": 402,
+      "imagePath": "402.png",
+      "objectiveType": "diagonalObjectiveCard",
+      "points": 2,
+      "color": "GREEN",
+      "direction": "rightToLeft",
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │     ┌───┐              │",
+        "│└───┘     │ ♣ │              │",
+        "│          └───┼───┐          │",
+        "│              │ ♣ │          │",
+        "│              └───┼───┐      │",
+        "│                  │ ♣ │      │",
+        "│                  └───┘      │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 3 consecutive green cards put in a diagonal line (top left to bottom right)"
+    }, {
+      "id": 403,
+      "imagePath": "403.png",
+      "objectiveType": "diagonalObjectiveCard",
+      "points": 2,
+      "color": "BLUE",
+      "direction": "leftToRight",
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │             ┌───┐      │",
+        "│└───┘             │ ♦ │      │",
+        "│              ┌───┼───┘      │",
+        "│              │ ♦ │          │",
+        "│          ┌───┼───┘          │",
+        "│          │ ♦ │              │",
+        "│          └───┘              │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 3 consecutive blue cards put in a diagonal line (bottom left to top right)"
+    }, {
+      "id": 404,
+      "imagePath": "404.png",
+      "points": 2,
+      "objectiveType": "diagonalObjectiveCard",
+      "color": "VIOLET",
+      "direction": "rightToLeft",
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │     ┌───┐              │",
+        "│└───┘     │ ♠ │              │",
+        "│          └───┼───┐          │",
+        "│              │ ♠ │          │",
+        "│              └───┼───┐      │",
+        "│                  │ ♠ │      │",
+        "│                  └───┘      │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 3 consecutive violet cards put in a diagonal line (top left to bottom right)"
+    }, {
+      "id": 405,
+      "imagePath": "405.png",
+      "objectiveType": "lShapeObjectiveCard",
+      "points": 3,
+      "baseColor": "GREEN",
+      "columnColor": "RED",
+      "direction": "bottomRight",
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 3 │         ┌───┐          │",
+        "│└───┘         │ ♥ │          │",
+        "│              ├───┤          │",
+        "│              │ ♥ │          │",
+        "│              └───┼───┐      │",
+        "│                  │ ♣ │      │",
+        "│                  └───┘      │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 3 points for every L-shape made with 2 red cards and a green card you create"
+    }, {
+      "id": 406,
+      "imagePath": "406.png",
+      "objectiveType": "lShapeObjectiveCard",
+      "points": 3,
+      "baseColor": "VIOLET",
+      "columnColor": "GREEN",
+      "direction": "bottomLeft",
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 3 │         ┌───┐          │",
+        "│└───┘         │ ♣ │          │",
+        "│              ├───┤          │",
+        "│              │ ♣ │          │",
+        "│          ┌───┼───┘          │",
+        "│          │ ♠ │              │",
+        "│          └───┘              │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 3 points for every J-shape made with 2 green cards and a violet card you create"
+    }, {
+      "id": 407,
+      "imagePath": "407.png",
+      "objectiveType": "lShapeObjectiveCard",
+      "points": 3,
+      "baseColor": "RED",
+      "columnColor": "BLUE",
+      "direction": "topRight",
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 3 │             ┌───┐      │",
+        "│└───┘             │ ♥ │      │",
+        "│              ┌───┼───┘      │",
+        "│              │ ♦ │          │",
+        "│              ├───┤          │",
+        "│              │ ♦ │          │",
+        "│              └───┘          │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 3 points for every flipped L-shape made with 2 blue cards and a red card you create"
+    }, {
+      "id": 408,
+      "imagePath": "408.png",
+      "objectiveType": "lShapeObjectiveCard",
+      "points": 3,
+      "baseColor": "BLUE",
+      "columnColor": "VIOLET",
+      "direction": "topLeft",
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 3 │         ┌───┐          │",
+        "│└───┘         │ ♦ │          │",
+        "│              └───┼───┐      │",
+        "│                  │ ♠ │      │",
+        "│                  ├───┤      │",
+        "│                  │ ♠ │      │",
+        "│                  └───┘      │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 3 points for every flipped J-shape made with 2 violet cards and a blue card you create"
+    }, {
+      "id": 409,
+      "imagePath": "409.png",
+      "objectiveType": "resourceObjectiveCard",
+      "points": 2,
+      "resources": [0, 0, 0, 3, 0, 0, 0],
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │                        │",
+        "│└───┘                        │",
+        "│          ┌───┬───┬───┐      │",
+        "│          │ ♥ │ ♥ │ ♥ │      │",
+        "│          └───┴───┴───┘      │",
+        "│                             │",
+        "│                             │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 3 red resources you have"
+    }, {
+      "id": 410,
+      "imagePath": "410.png",
+      "objectiveType": "resourceObjectiveCard",
+      "points": 2,
+      "resources": [0, 3, 0, 0, 0, 0, 0],
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │                        │",
+        "│└───┘                        │",
+        "│          ┌───┬───┬───┐      │",
+        "│          │ ♣ │ ♣ │ ♣ │      │",
+        "│          └───┴───┴───┘      │",
+        "│                             │",
+        "│                             │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 3 green resources you have"
+    }, {
+      "id": 411,
+      "imagePath": "411.png",
+      "objectiveType": "resourceObjectiveCard",
+      "points": 2,
+      "resources": [3, 0, 0, 0, 0, 0, 0],
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │                        │",
+        "│└───┘                        │",
+        "│          ┌───┬───┬───┐      │",
+        "│          │ ♦ │ ♦ │ ♦ │      │",
+        "│          └───┴───┴───┘      │",
+        "│                             │",
+        "│                             │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 3 blue resources you have"
+    }, {
+      "id": 412,
+      "imagePath": "412.png",
+      "objectiveType": "resourceObjectiveCard",
+      "points": 2,
+      "resources": [0, 0, 3, 0, 0, 0, 0],
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │                        │",
+        "│└───┘                        │",
+        "│          ┌───┬───┬───┐      │",
+        "│          │ ♠ │ ♠ │ ♠ │      │",
+        "│          └───┴───┴───┘      │",
+        "│                             │",
+        "│                             │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 3 violet resources you have"
+    }, {
+      "id": 413,
+      "imagePath": "413.png",
+      "objectiveType": "resourceObjectiveCard",
+      "points": 3,
+      "resources": [0, 0, 0, 0, 1, 1, 1],
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 3 │                        │",
+        "│└───┘                        │",
+        "│          ┌───┬───┬───┐      │",
+        "│          │ ▲ │ • │ ■ │      │",
+        "│          └───┴───┴───┘      │",
+        "│                             │",
+        "│                             │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 3 points for every feather-bottle-scroll tris you have"
+    }, {
+      "id": 414,
+      "imagePath": "414.png",
+      "objectiveType": "resourceObjectiveCard",
+      "points": 2,
+      "resources": [0, 0, 0, 0, 0, 0, 2],
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │                        │",
+        "│└───┘                        │",
+        "│            ┌───┬───┐        │",
+        "│            │ ■ │ ■ │        │",
+        "│            └───┴───┘        │",
+        "│                             │",
+        "│                             │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 2 scroll resources you have"
+    }, {
+      "id": 415,
+      "imagePath": "415.png",
+      "objectiveType": "resourceObjectiveCard",
+      "points": 2,
+      "resources": [0, 0, 0, 0, 0, 2, 0],
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │                        │",
+        "│└───┘                        │",
+        "│            ┌───┬───┐        │",
+        "│            │ • │ • │        │",
+        "│            └───┴───┘        │",
+        "│                             │",
+        "│                             │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 2 bottle resources you have"
+    }, {
+      "id": 416,
+      "imagePath": "416.png",
+      "objectiveType": "resourceObjectiveCard",
+      "points": 2,
+      "resources": [0, 0, 0, 0, 2, 0, 0],
+      "ASCII": [
+        "┌┬───┬────────────────────────┐",
+        "││ 2 │                        │",
+        "│└───┘                        │",
+        "│            ┌───┬───┐        │",
+        "│            │ ▲ │ ▲ │        │",
+        "│            └───┴───┘        │",
+        "│                             │",
+        "│                             │",
+        "└─────────────────────────────┘"
+      ],
+      "description": "Get 2 points for every 2 feather resources you have"
+    }
+  ]
+}

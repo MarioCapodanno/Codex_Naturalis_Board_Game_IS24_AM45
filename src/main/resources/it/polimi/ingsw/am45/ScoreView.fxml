@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<AnchorPane prefHeight="500.0" prefWidth="247.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="300.0" opacity="0.4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/ScoreBoard.png" />
+         </image>
+      </ImageView>
+      <VBox fx:id="pane0" layoutX="38.0" layoutY="437.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane1" layoutX="98.0" layoutY="443.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane3" layoutX="182.0" layoutY="388.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane2" layoutX="154.0" layoutY="443.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane4" layoutX="126.0" layoutY="388.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane5" layoutX="70.0" layoutY="388.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane6" layoutX="10.0" layoutY="388.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane7" layoutX="10.0" layoutY="333.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane8" layoutX="66.0" layoutY="333.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane9" layoutX="126.0" layoutY="333.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane10" layoutX="182.0" layoutY="333.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane11" layoutX="182.0" layoutY="277.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane12" layoutX="126.0" layoutY="277.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane13" layoutX="70.0" layoutY="277.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane14" layoutX="10.0" layoutY="277.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane15" layoutX="10.0" layoutY="226.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane16" layoutX="66.0" layoutY="226.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane17" layoutX="126.0" layoutY="226.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane18" layoutX="188.0" layoutY="226.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane19" layoutX="188.0" layoutY="171.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane20" layoutX="99.0" layoutY="147.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane21" layoutX="10.0" layoutY="171.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane22" layoutX="10.0" layoutY="123.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane23" layoutX="10.0" layoutY="64.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane24" layoutX="42.0" layoutY="14.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane25" layoutX="97.0" layoutY="14.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane26" layoutX="154.0" layoutY="14.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane27" layoutX="188.0" layoutY="57.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane28" layoutX="188.0" layoutY="123.0" prefHeight="49.0" prefWidth="56.0" />
+      <VBox fx:id="pane29" layoutX="99.0" layoutY="82.0" prefHeight="49.0" prefWidth="56.0" />
+   </children>
+</AnchorPane>

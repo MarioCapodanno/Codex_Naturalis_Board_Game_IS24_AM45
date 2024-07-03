@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<AnchorPane fx:id="parentPane" prefHeight="700.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="700.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/marketBG.png" />
+         </image>
+      </ImageView>
+      <Button id="deckResource_1" fx:id="deckResource_1" contentDisplay="TOP" disable="true" layoutX="90.0" layoutY="3.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="90.0" prefWidth="120.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="110.0">
+               <image>
+                  <Image url="@cardpng/301_back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow color="BLACK" offsetX="5.0" offsetY="5.0" radius="5.0" />
+         </effect>
+        </Button>
+      <Button id="deckResource_2" fx:id="deckResource_2" contentDisplay="TOP" disable="true" layoutX="21.0" layoutY="102.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="90.0" prefWidth="120.0" text="" AnchorPane.rightAnchor="159.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="110.0">
+               <image>
+                  <Image url="@cardpng/301_back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="deckResource_3" fx:id="deckResource_3" contentDisplay="TOP" disable="true" layoutX="161.0" layoutY="101.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="90.0" prefWidth="120.0" text="" AnchorPane.leftAnchor="161.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="110.0">
+               <image>
+                  <Image url="@cardpng/301_back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="deckGold_1" fx:id="deckGold_1" contentDisplay="TOP" disable="true" layoutX="90.0" layoutY="203.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="90.0" prefWidth="120.0" text="">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="110.0">
+               <image>
+                  <Image url="@cardpng/301_back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+         <effect>
+            <DropShadow color="BLACK" offsetX="3.0" offsetY="3.0" radius="5.0" />
+         </effect>
+      </Button>
+      <Button id="deckGold_2" fx:id="deckGold_2" contentDisplay="TOP" disable="true" layoutX="21.0" layoutY="303.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="90.0" prefWidth="120.0" text="" AnchorPane.rightAnchor="159.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="110.0">
+               <image>
+                  <Image url="@cardpng/301_back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button id="deckGold_3" fx:id="deckGold_3" contentDisplay="TOP" disable="true" layoutX="161.0" layoutY="303.0" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="90.0" prefWidth="120.0" text="" AnchorPane.leftAnchor="161.0">
+         <graphic>
+            <ImageView fitHeight="65.0" fitWidth="110.0">
+               <image>
+                  <Image url="@cardpng/301_back.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="drawBtn" layoutX="116.0" layoutY="399.0" mnemonicParsing="false" style="-fx-background-color: #349748; -fx-background-radius: 15px; -fx-padding: 4px 20px; -fx-font-weight: bold;" text="Draw" textFill="WHITE" />
+      <Text fx:id="errorTxt" fill="RED" layoutX="13.0" layoutY="439.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="279.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="41.0" layoutY="653.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/animal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="72.0" layoutY="653.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/plant.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="103.0" layoutY="653.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/insect.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="134.0" layoutY="653.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/fungi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="165.0" layoutY="653.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/feather.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="196.0" layoutY="653.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/potion.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="24.0" fitWidth="23.0" layoutX="227.0" layoutY="653.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/scroll.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="animalTxt" layoutX="44.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="17.46875" />
+      <Text fx:id="plantTxt" layoutX="75.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="17.46875" />
+      <Text fx:id="insectTxt" layoutX="105.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="17.46875" />
+      <Text fx:id="fungiTxt" layoutX="136.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="17.46875" />
+      <Text fx:id="featherTxt" layoutX="167.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="17.46875" />
+      <Text fx:id="potionTxt" layoutX="198.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="17.46875" />
+      <Text fx:id="scrollTxt" layoutX="229.0" layoutY="691.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0" textAlignment="CENTER" wrappingWidth="17.46875" />
+      <Text fx:id="openScore" fill="#6f6ddd" layoutX="20.0" layoutY="467.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font-weight: bold;" text="PLAYERS:">
+         <font>
+            <Font size="16.0" />
+         </font></Text>
+      <Text fx:id="pl1" layoutX="20.0" layoutY="498.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="pl2" layoutX="20.0" layoutY="528.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="pl3" layoutX="20.0" layoutY="568.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <Text fx:id="pl4" layoutX="20.0" layoutY="608.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+      <ImageView fx:id="obj1" fitHeight="69.0" fitWidth="128.0" layoutX="171.0" layoutY="470.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="obj2" fitHeight="69.0" fitWidth="128.0" layoutX="171.0" layoutY="553.0" pickOnBounds="true" preserveRatio="true" />
+
+   </children>
+</AnchorPane>

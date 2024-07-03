@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<AnchorPane fx:id="background" prefHeight="700.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+      <ImageView fitHeight="700.0" fitWidth="1400.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@utilities/winnerBG.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="373.0" fitWidth="658.0" layoutX="365.0" layoutY="122.0" pickOnBounds="true">
+         <image>
+            <Image url="@utilities/boardBG.png" />
+         </image>
+      </ImageView>
+        <AnchorPane fx:id="playersName" layoutX="420.0" layoutY="154.0" prefHeight="309.0" prefWidth="565.0">
+            <children>
+                <Text fx:id="pl1" layoutX="17.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="529.3157348632812">
+               <font>
+                  <Font size="26.0" />
+               </font></Text>
+            </children>
+        </AnchorPane>
+        <Button fx:id="create" layoutX="638.0" layoutY="391.0" mnemonicParsing="false" style="-fx-background-color: #349748; -fx-font-weight: bold; -fx-background-radius: 15px;" text="Create" textFill="WHITE">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Button>
+        <TextField fx:id="gameIdTxt" layoutX="620.0" layoutY="298.0" promptText="Game ID" />
+        <ChoiceBox fx:id="playerColor" layoutX="664.0" layoutY="340.0">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <String fx:value="Red" />
+                    <String fx:value="Green" />
+                    <String fx:value="Blue" />
+                    <String fx:value="Yellow" />
+                </FXCollections>
+            </items>
+            <value>
+                <String fx:value="Red" />
+            </value>
+        </ChoiceBox>
+        <ToggleButton fx:id="toggle" layoutX="514.0" layoutY="165.0" prefHeight="63.0" prefWidth="373.0" style="-fx-font-weight: bold; -fx-background-color: #D37429; -fx-background-radius: 15px;" text="Create Game" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font></ToggleButton>
+        <Text fx:id="errorTxt" fill="RED" layoutX="446.0" layoutY="483.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="509.21630859375">
+            <font>
+                <Font size="21.0" />
+            </font>
+        </Text>
+        <ChoiceBox fx:id="playerChoiceBox" layoutX="679.0" layoutY="255.0" style="-fx-border-color: green;">
+            <items>
+                <FXCollections fx:factory="observableArrayList">
+                    <Integer fx:value="2" />
+                    <Integer fx:value="3" />
+                    <Integer fx:value="4" />
+                </FXCollections>
+            </items>
+            <value>
+                <Integer fx:value="2" />
+            </value>
+        </ChoiceBox>
+        <Button fx:id="join" layoutX="655.0" layoutY="391.0" mnemonicParsing="false" style="-fx-background-color: #349748; -fx-font-weight: bold; -fx-background-radius: 15px;" text="Join" textFill="WHITE">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,1697 @@
+
+{
+  "resourceDeck": [
+    {
+      "id": 1101,
+      "frontImagePath": "1101.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["FUNGI","EMPTY","","FUNGI"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♥ │                     │   │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                         │",
+        "│ ♥ │                         │",
+        "└───┴─────────────────────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♥───┼",
+        "│   │",
+        "♥───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1102,
+      "frontImagePath": "1102.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["FUNGI","FUNGI","EMPTY",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♥ │                     │ ♥ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │   │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♥───♥",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1103,
+      "frontImagePath": "1103.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["EMPTY","","FUNGI","FUNGI"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────────┐",
+        "│   │                         │",
+        "├───┘                         │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♥ │                     │ ♥ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "♥───♥"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1104,
+      "frontImagePath": "1104.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["","FUNGI","FUNGI","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │ ♥ │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│   │                     │ ♥ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───♥",
+        "│   │",
+        "┼───♥"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1105,
+      "frontImagePath": "1105.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["","FEATHER","FUNGI","PLANT"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │ ▲ │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♣ │                     │ ♥ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───▲",
+        "│   │",
+        "♣───♥"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1106,
+      "frontImagePath": "1106.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["BOTTLE","FUNGI","ANIMAL",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ • │                     │ ♥ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │ ♦ │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "•───♥",
+        "│   │",
+        "└───♦"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1107,
+      "frontImagePath": "1107.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["FUNGI","INSECT","EMPTY","SCROLL"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♥ │                     │ ♠ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ■ │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♥───♠",
+        "│   │",
+        "■───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1108,
+      "frontImagePath": "1108.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["EMPTY","FUNGI","","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 1 │        │ ♥ │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                         │",
+        "│   │                         │",
+        "└───┴─────────────────────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───♥",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1109,
+      "frontImagePath": "1109.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["FUNGI","","EMPTY","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│ ♥ │        │ 1 │            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♥───┐",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1110,
+      "frontImagePath": "1110.png",
+      "backImagePath": "resource_red_back.png",
+      "materialValues":[["","EMPTY","EMPTY","FUNGI"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["FUNGI"]],
+      "cardColor": "RED",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │ 1 │        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♥ │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♥ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "♥───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♥ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1201,
+      "frontImagePath": "1201.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["PLANT","EMPTY","","PLANT"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♣ │                     │   │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                         │",
+        "│ ♣ │                         │",
+        "└───┴─────────────────────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♣───┼",
+        "│   │",
+        "♣───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+
+
+    },
+    {
+      "id": 1202,
+      "frontImagePath": "1202.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["PLANT","PLANT","EMPTY",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♣ │                     │ ♣ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │   │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♣───♣",
+        "│   │",
+        "└───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1203,
+      "frontImagePath": "1203.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["EMPTY","","PLANT","PLANT"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────────┐",
+        "│   │                         │",
+        "├───┘                         │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♣ │                     │ ♣ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "♣───♣"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1204,
+      "frontImagePath": "1204.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["","PLANT","PLANT","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │ ♣ │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│   │                     │ ♣ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───♣",
+        "│   │",
+        "┼───♣"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1205,
+      "frontImagePath": "1205.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["","INSECT","PLANT","FEATHER"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │ ♠ │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ▲ │                     │ ♣ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───♠",
+        "│   │",
+        "▲───♣"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1206,
+      "frontImagePath": "1206.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["FUNGI","PLANT","BOTTLE",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♥ │                     │ ♣ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │ • │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♥───♣",
+        "│   │",
+        "└───•"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1207,
+      "frontImagePath": "1207.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["SCROLL","","ANIMAL","PLANT"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────────┐",
+        "│ ■ │                         │",
+        "├───┘                         │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♣ │                     │ ♦ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "■───┐",
+        "│   │",
+        "♣───♦"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1208,
+      "frontImagePath": "1208.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["EMPTY","EMPTY","","PLANT"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 1 │        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                         │",
+        "│ ♣ │                         │",
+        "└───┴─────────────────────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "♣───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1209,
+      "frontImagePath": "1209.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["EMPTY","EMPTY","PLANT",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 1 │        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │ ♣ │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "└───♣"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1210,
+      "frontImagePath": "1210.png",
+      "backImagePath": "resource_green_back.png",
+      "materialValues":[["","PLANT","EMPTY","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["PLANT"]],
+      "cardColor": "GREEN",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │ 1 │        │ ♣ │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♣ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───♣",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♣ │",
+        "┼───┼"
+      ]
+    },{
+      "id": 1301,
+      "frontImagePath": "1301.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["ANIMAL","ANIMAL","","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL"]],
+      "cardColor": "BLUE",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♦ │                     │ ♦ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                         │",
+        "│   │                         │",
+        "└───┴─────────────────────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♦───♦",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1302,
+      "frontImagePath": "1302.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["","EMPTY","ANIMAL","ANIMAL"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL"]],
+      "cardColor": "BLUE",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │   │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♦ │                     │ ♦ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "♦───♦"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1303,
+      "frontImagePath": "1303.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["ANIMAL","","EMPTY","ANIMAL"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL"]],
+      "cardColor": "BLUE",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────────┐",
+        "│ ♦ │                         │",
+        "├───┘                         │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♦ │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♦───┐",
+        "│   │",
+        "♦───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1304,
+      "frontImagePath": "1304.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["EMPTY","ANIMAL","ANIMAL",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL","EMPTY"]],
+      "cardColor": "BLUE",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │ ♦ │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│   │                     │ ♦ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───♦",
+        "│   │",
+        "┼───♦"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1305,
+      "frontImagePath": "1305.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["","INSECT","ANIMAL","BOTTLE"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL","EMPTY"]],
+      "cardColor": "BLUE",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │ ♠ │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ • │                     │ ♦ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───♠",
+        "│   │",
+        "•───♦"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1306,
+      "frontImagePath": "1306.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["PLANT","ANIMAL","SCROLL",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL","EMPTY"]],
+      "cardColor": "BLUE",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♣ │                     │ ♦ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │ ■ │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♣───♦",
+        "│   │",
+        "└───■"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1307,
+      "frontImagePath": "1307.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["FEATHER","","FUNGI","ANIMAL"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL","EMPTY"]],
+      "cardColor": "BLUE",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────────┐",
+        "│ ▲ │                         │",
+        "├───┘                         │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♦ │                     │ ♥ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "▲───┐",
+        "│   │",
+        "♦───♥"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1308,
+      "frontImagePath": "1308.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["","EMPTY","EMPTY","ANIMAL"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL","EMPTY"]],
+      "cardColor": "BLUE",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │ 1 │        │   │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♦ │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "♦───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1309,
+      "frontImagePath": "1309.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["EMPTY","","ANIMAL","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL","EMPTY"]],
+      "cardColor": "BLUE",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│   │        │ 1 │            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│   │                     │ ♦ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┐",
+        "│   │",
+        "┼───♦"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1310,
+      "frontImagePath": "1310.png",
+      "backImagePath": "resource_blue_back.png",
+      "materialValues":[["EMPTY","ANIMAL","","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["ANIMAL","EMPTY"]],
+      "cardColor": "BLUE",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 1 │        │ ♦ │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                         │",
+        "│   │                         │",
+        "└───┴─────────────────────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♦ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───♦",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♦ │",
+        "┼───┼"
+      ]
+    },{
+      "id": 1401,
+      "frontImagePath": "1401.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["INSECT","INSECT","","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♠ │                     │ ♠ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                         │",
+        "│   │                         │",
+        "└───┴─────────────────────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♠───♠",
+        "│   │",
+        "┼───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+
+    },
+    {
+      "id": 1402,
+      "frontImagePath": "1402.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["","EMPTY","INSECT","INSECT"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │   │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♠ │                     │ ♠ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───┼",
+        "│   │",
+        "♠───♠"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1403,
+      "frontImagePath": "1403.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["INSECT","","EMPTY","INSECT"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────────┐",
+        "│ ♠ │                         │",
+        "├───┘                         │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♠ │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♠───┐",
+        "│   │",
+        "♠───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1404,
+      "frontImagePath": "1404.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["EMPTY","INSECT","INSECT",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │ ♠ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │ ♠ │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───♠",
+        "│   │",
+        "└───♠"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1405,
+      "frontImagePath": "1405.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["","FEATHER","INSECT","ANIMAL"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌─────────────────────────┬───┐",
+        "│                         │ ▲ │",
+        "│                         └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│ ♦ │                     │ ♠ │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───▲",
+        "│   │",
+        "♦───♠"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1406,
+      "frontImagePath": "1406.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["SCROLL","INSECT","FUNGI",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ■ │                     │ ♠ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │ ♥ │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "■───♠",
+        "│   │",
+        "└───♥"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1407,
+      "frontImagePath": "1407.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["INSECT","PLANT","","BOTTLE"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 0,
+      "ASCIIfront": [
+        "┌───┬─────────────────────┬───┐",
+        "│ ♠ │                     │ ♣ │",
+        "├───┘                     └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                         │",
+        "│ • │                         │",
+        "└───┴─────────────────────────┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♠───♣",
+        "│   │",
+        "•───┘"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1408,
+      "frontImagePath": "1408.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["INSECT","","EMPTY","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────────┐",
+        "│ ♠ │        │ 1 │            │",
+        "├───┘        └───┘            │",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "♠───┐",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1409,
+      "frontImagePath": "1409.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["EMPTY","EMPTY","INSECT",""],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌───┬────────┬───┬────────┬───┐",
+        "│   │        │ 1 │        │   │",
+        "├───┘        └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "│                         ┌───┤",
+        "│                         │ ♠ │",
+        "└─────────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┼───┼",
+        "│   │",
+        "└───♠"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    },
+    {
+      "id": 1410,
+      "frontImagePath": "1410.png",
+      "backImagePath": "resource_violet_back.png",
+      "materialValues":[["","INSECT","EMPTY","EMPTY"],["EMPTY","EMPTY","EMPTY","EMPTY"]],
+      "centerValues":[["EMPTY"],["INSECT"]],
+      "cardColor": "VIOLET",
+      "instantPoints": 1,
+      "ASCIIfront": [
+        "┌────────────┬───┬────────┬───┐",
+        "│            │ 1 │        │ ♠ │",
+        "│            └───┘        └───┤",
+        "│                             │",
+        "│                             │",
+        "│                             │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "ASCIIback": [
+        "┌───┬─────────────────────┬───┐",
+        "│   │                     │   │",
+        "├───┘                     └───┤",
+        "│            ┌───┐            │",
+        "│            │ ♠ │            │",
+        "│            └───┘            │",
+        "├───┐                     ┌───┤",
+        "│   │                     │   │",
+        "└───┴─────────────────────┴───┘"
+      ],
+      "smallASCIIfront":[
+        "┌───♠",
+        "│   │",
+        "┼───┼"
+      ],
+
+      "smallASCIIback":[
+        "┼───┼",
+        "│ ♠ │",
+        "┼───┼"
+      ]
+    }
+  ]
+}

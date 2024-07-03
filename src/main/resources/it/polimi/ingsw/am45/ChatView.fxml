@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="500.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollPane fx:id="scrollPane" hvalue="0.52" prefHeight="450.0" prefWidth="300.0" vvalue="0.54" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+
+
+      </ScrollPane>
+      <AnchorPane layoutY="450.0" prefHeight="50.0" prefWidth="300.0">
+         <children>
+            <TextField fx:id="textPane" layoutX="14.0" layoutY="13.0" prefHeight="25.0" prefWidth="201.0" />
+            <Button fx:id="sendBtn" layoutX="225.0" layoutY="13.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="61.0" style="-fx-background-color: #35682D;" text="SEND" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

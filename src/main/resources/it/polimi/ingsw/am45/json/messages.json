@@ -1,0 +1,17 @@
+{
+  "NOGAME": "ERROR: No game with this ID",
+  "GAMESTARTED": "ERROR: The game has already started",
+  "JOINED": "You joined game",
+  "CREATED": "Game created",
+  "ALREADYEXIST": "ERROR: Game ID already exists",
+  "FULL": "ERROR: Game is full",
+  "STARTING": "Game is starting",
+  "NOCARDSELECTED": "ERROR: No card selected",
+  "CANTPLAYCARD": "ERROR: can't play this card",
+  "CARDPLAYED": "Card played",
+  "ALREADYOPEN": "Player board already open",
+  "NICKUSED": "Player name already used",
+  "CHOOSE": "Choose an objective card",
+  "COLORUSED": "Color already used",
+  "SERVERDOWN": "Server is down"
+}
