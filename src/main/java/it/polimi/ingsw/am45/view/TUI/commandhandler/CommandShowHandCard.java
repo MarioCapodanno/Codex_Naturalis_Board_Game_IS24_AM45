@@ -45,16 +45,14 @@ public class CommandShowHandCard {
      */
     private int getUserChoice() {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        ArrayList<String> hand = new ArrayList<>();
-
         int chosenCard = -1;
 
         while (chosenCard < 1 || chosenCard >= 3 || !exiting) {
             try {
                 System.out.print("\033[H\033[2J");
                 System.out.flush();
+                this.gameView.getHandViewController().printHandTUI(new ArrayList<>()).forEach(System.out::println);
 
-                this.gameView.getHandViewController().printHandTUI(hand).forEach(System.out::println);
                 System.out.println("If you want to flip a card, press 1,2, or 3. If you want to exit, type 'exit'.");
                 String input = reader.readLine();
                 if (input.isEmpty()) {
