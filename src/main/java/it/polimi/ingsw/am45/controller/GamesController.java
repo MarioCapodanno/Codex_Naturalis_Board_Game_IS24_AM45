@@ -62,7 +62,7 @@ public class GamesController {
      * @param serverHandler the server socket of the player creating the game
      * @return the created game, or null if a game with the same ID already exists
      */
-    public Game createGame(int gameID, int numOfPlayers, String nickname, TokenColor color, ServerHandler serverHandler) {
+    public synchronized Game createGame(int gameID, int numOfPlayers, String nickname, TokenColor color, ServerHandler serverHandler) {
         if (games.containsKey(gameID)) {
             return null;
         }
@@ -84,7 +84,7 @@ public class GamesController {
      *
      * @param gameID the ID of the game to be deleted
      */
-    public void deleteGame(int gameID) {
+    public synchronized void deleteGame(int gameID) {
         clients.remove(games.get(gameID));
         games.remove(gameID);
         System.out.println("Game deleted: " + gameID);
@@ -148,17 +148,20 @@ public class GamesController {
      *
      * @param GameID the ID of the game to start
      */
-    public synchronized void startGame(int GameID) {
-        List<ServerHandler> serverSO = clients.get(games.get(GameID));
-        boolean allInGame = true;
-        for (ServerHandler serverHandler : serverSO) {
-            if (!serverHandler.inGame) {
-                allInGame = false;
-                break;
+    public void startGame(int GameID) {
+        Game game = games.get(GameID);
+        synchronized (game) {
+            List<ServerHandler> serverSO = clients.get(games.get(GameID));
+            boolean allInGame = true;
+            for (ServerHandler serverHandler : serverSO) {
+                if (!serverHandler.inGame) {
+                    allInGame = false;
+                    break;
+                }
             }
-        }
-        if (allInGame) {
-            games.get(GameID).startGame();
+            if (allInGame) {
+                games.get(GameID).startGame();
+            }
         }
     }
 
@@ -167,7 +170,7 @@ public class GamesController {
      *
      * @param message the command received from the client
      */
-    public void onCommandReceived(ClientToServer message) {
+    public synchronized void onCommandReceived(ClientToServer message) {
         message.update();
     }
 
@@ -179,15 +182,17 @@ public class GamesController {
      * @param game          the game from which the client disconnected
      */
     public void onDisconnect(ServerHandler serverHandler, Game game) {
-        List<ServerHandler> serverSO = clients.get(game);
-        if ((serverSO != null)) {
-            serverSO.remove(serverHandler);
-        }
-        if(game!=null) {
-            game.disconnectPlayer(game.getPlayerByNickname(serverHandler.getNickname()));
-            sendEveryPlayerTCP(game, new PlayersUpdate(game.getPlayerNicknames()));
-            RMIController.getInstance().playerUpdateRMI(game, game.getPlayerNicknames(), clients);
-        }
+        synchronized (game) {
+            List<ServerHandler> serverSO = clients.get(game);
+            if ((serverSO != null)) {
+                serverSO.remove(serverHandler);
+            }
+            if(game!=null) {
+                game.disconnectPlayer(game.getPlayerByNickname(serverHandler.getNickname()));
+                sendEveryPlayerTCP(game, new PlayersUpdate(game.getPlayerNicknames()));
+                RMIController.getInstance().playerUpdateRMI(game, game.getPlayerNicknames(), clients);
+            }
+            }
     }
 
     /**
@@ -213,7 +218,7 @@ public class GamesController {
      * @param game          The game to associate the ServerHandler with.
      * @param serverHandler The ServerHandler to associate with the Game.
      */
-    private void serverHandlerToGame(Game game, ServerHandler serverHandler) {
+    private synchronized void serverHandlerToGame(Game game, ServerHandler serverHandler) {
         if (!clients.containsKey(game)) {
             clients.put(game, new ArrayList<>());
         }
@@ -239,33 +244,36 @@ public class GamesController {
      *     @param serverRequestSocket  The ServerHandler to associate with the Game.
      */
 
-    public synchronized void requestPlayingUpdate(int gameID, ServerHandler serverRequestSocket) {
-        List<ServerHandler> serverSIO = clients.get(games.get(gameID));
-        Stack<String> nicknames = new Stack<>();
-        Stack<Long> pings = new Stack<>();
-        Stack<Integer> points = new Stack<>();
-        if (serverSIO != null) {
-            for (ServerHandler serverHandler : serverSIO) {
-                nicknames.add(serverHandler.getNickname());
-                pings.add(serverHandler.getLastPing());
-                points.add(games.get(gameID).getPlayerByNickname(serverHandler.getNickname()).getScore());
-                for (int i = 0; i < points.size(); i++) {
-                    if (games.get(gameID).getPlayerByNickname(serverHandler.getNickname()).getScore() >= points.get(i)) {
-                        nicknames.removeLast();
-                        pings.removeLast();
-                        points.removeLast();
-                        nicknames.add(i, serverHandler.getNickname());
-                        pings.add(i, serverHandler.getLastPing());
-                        points.add(i, games.get(gameID).getPlayerByNickname(serverHandler.getNickname()).getScore());
-                        break;
+    public void requestPlayingUpdate(int gameID, ServerHandler serverRequestSocket) {
+        Game game = games.get(gameID);
+        synchronized (game) {
+            List<ServerHandler> serverSIO = clients.get(game);
+            Stack<String> nicknames = new Stack<>();
+            Stack<Long> pings = new Stack<>();
+            Stack<Integer> points = new Stack<>();
+            if (serverSIO != null) {
+                for (ServerHandler serverHandler : serverSIO) {
+                    nicknames.add(serverHandler.getNickname());
+                    pings.add(serverHandler.getLastPing());
+                    points.add(game.getPlayerByNickname(serverHandler.getNickname()).getScore());
+                    for (int i = 0; i < points.size(); i++) {
+                        if (game.getPlayerByNickname(serverHandler.getNickname()).getScore() >= points.get(i)) {
+                            nicknames.removeLast();
+                            pings.removeLast();
+                            points.removeLast();
+                            nicknames.add(i, serverHandler.getNickname());
+                            pings.add(i, serverHandler.getLastPing());
+                            points.add(i, game.getPlayerByNickname(serverHandler.getNickname()).getScore());
+                            break;
+                        }
                     }
                 }
             }
+            if (serverRequestSocket.getConnectionType() == ConnectionType.TCP)
+                serverRequestSocket.sendMessage(new PlayersUpdate(nicknames, pings, points));
+            else
+                RMIController.getInstance().sendPlayersUpdate(nicknames, pings, points, serverRequestSocket);
         }
-        if (serverRequestSocket.getConnectionType() == ConnectionType.TCP)
-            serverRequestSocket.sendMessage(new PlayersUpdate(nicknames, pings, points));
-        else
-            RMIController.getInstance().sendPlayersUpdate(nicknames, pings, points, serverRequestSocket);
     }
 
     /**
@@ -275,8 +283,11 @@ public class GamesController {
      * @param position      The position of the card to flip.
      * @param serverHandler The server handler associated with the game.
      */
-    public synchronized void flipCard(int position, ServerHandler serverHandler) {
-        serverHandler.getGame().flipCard(position, serverHandler.getNickname());
+    public void flipCard(int position, ServerHandler serverHandler) {
+        Game game = serverHandler.getGame();
+        synchronized (game) {
+            game.flipCard(position, serverHandler.getNickname());
+        }
     }
 
     /**
@@ -286,8 +297,11 @@ public class GamesController {
      * @param serverHandler The server handler associated with the game.
      */
 
-    public synchronized void flipMarketCard(int position, ServerHandler serverHandler) {
-        serverHandler.getGame().flipMarketCard(position, serverHandler.getNickname());
+    public void flipMarketCard(int position, ServerHandler serverHandler) {
+        Game game = serverHandler.getGame();
+        synchronized (game) {
+            game.flipMarketCard(position, serverHandler.getNickname());
+        }
     }
 
     /**
@@ -298,16 +312,17 @@ public class GamesController {
      * @param y             The y coordinate of the card to play.
      * @param serverHandler The server handler associated with the game.
      */
-    public synchronized void playCard(int position, int x, int y, ServerHandler serverHandler) {
-        if (!serverHandler.getGame().playCard(position, new Location(x, y), serverHandler.getNickname())) {
-            serverHandler.sendMessage(new MessageUpdate(Messages.CANTPLAYCARD));
-            RMIController.getInstance().messageUpdate(serverHandler, Messages.CANTPLAYCARD);
-        } else if (position != invalidPosition) {
-            serverHandler.sendMessage(new MessageUpdate(Messages.CARDPLAYED));
-            RMIController.getInstance().messageUpdate(serverHandler, Messages.CARDPLAYED);
-            updatePlayersBoard(serverHandler.getGame());
-
-
+    public void playCard(int position, int x, int y, ServerHandler serverHandler) {
+        Game game = serverHandler.getGame();
+        synchronized (game) {
+            if (!game.playCard(position, new Location(x, y), serverHandler.getNickname())) {
+                serverHandler.sendMessage(new MessageUpdate(Messages.CANTPLAYCARD));
+                RMIController.getInstance().messageUpdate(serverHandler, Messages.CANTPLAYCARD);
+            } else if (position != invalidPosition) {
+                serverHandler.sendMessage(new MessageUpdate(Messages.CARDPLAYED));
+                RMIController.getInstance().messageUpdate(serverHandler, Messages.CARDPLAYED);
+                updatePlayersBoard(game);
+            }
         }
     }
 
@@ -317,9 +332,12 @@ public class GamesController {
      * @param message       The message to send to the players.
      * @param serverHandler The server handler associated with the game.
      */
-    public synchronized void sendMessage(String message, ServerHandler serverHandler) {
-        message = serverHandler.getNickname() + " - " + message;
-        serverHandler.getGame().sendMessage(message);
+    public void sendMessage(String message, ServerHandler serverHandler) {
+        Game game = serverHandler.getGame();
+        synchronized (game) {
+            message = serverHandler.getNickname() + " - " + message;
+            game.sendMessage(message);
+        }
     }
 
     /**
@@ -328,11 +346,14 @@ public class GamesController {
      * @param position      The position of the card to draw.
      * @param serverHandler The server handler associated with the game.
      */
-    public synchronized void drawCard(int position, ServerHandler serverHandler) {
+    public void drawCard(int position, ServerHandler serverHandler) {
+    Game game = serverHandler.getGame();
+    synchronized (game) {
         if(position!=10)
-            serverHandler.getGame().drawCard(position, serverHandler.getNickname());
-        serverHandler.getGame().nextTurn();
+            game.drawCard(position, serverHandler.getNickname());
+        game.nextTurn();
     }
+}
 
 
 
@@ -342,8 +363,11 @@ public class GamesController {
      * @param position      The position of the object to choose.
      * @param serverHandler The server handler associated with the game.
      */
-    public synchronized void chooseObj(Boolean position, ServerHandler serverHandler) {
-        serverHandler.getGame().chooseObj(position, serverHandler.getNickname());
+    public void chooseObj(Boolean position, ServerHandler serverHandler) {
+        Game game = serverHandler.getGame();
+        synchronized (game) {
+            game.chooseObj(position, serverHandler.getNickname());
+        }
     }
 
 
@@ -354,10 +378,12 @@ public class GamesController {
      * @param game     The game instance.
      * @param hand     The player's hand.
      */
-    public synchronized void sendHand(String nickname, Game game, List<String> hand) {
-        sendMessageToPlayer(nickname, game, new HandUpdate(hand));
-        RMIController.getInstance().sendHandRMI(game, nickname, clients, hand);
-        System.out.println("mano" + hand);
+    public void sendHand(String nickname, Game game, List<String> hand) {
+        synchronized (game){
+            sendMessageToPlayer(nickname, game, new HandUpdate(hand));
+            RMIController.getInstance().sendHandRMI(game, nickname, clients, hand);
+            System.out.println("mano" + hand);
+        }
     }
 
     /**
@@ -369,9 +395,11 @@ public class GamesController {
      * @param obj1     The first object to be sent.
      * @param obj2     The second object to be sent.
      */
-    public synchronized void sendChoice(String nickname, Game game, String choice, String obj1, String obj2) {
-        sendMessageToPlayer(nickname, game, new ChoosingUpdate(choice, obj1, obj2));
-        RMIController.getInstance().sendChoiceRMI(game, nickname, clients, choice, obj1, obj2);
+    public  void sendChoice(String nickname, Game game, String choice, String obj1, String obj2) {
+        synchronized (game){
+            sendMessageToPlayer(nickname, game, new ChoosingUpdate(choice, obj1, obj2));
+            RMIController.getInstance().sendChoiceRMI(game, nickname, clients, choice, obj1, obj2);
+        }
     }
 
     /**
@@ -381,9 +409,12 @@ public class GamesController {
      * @param game     The game instance.
      * @param resource The resources to be sent.
      */
-    public synchronized void sendResource(String nickname, Game game, List<Integer> resource) {
-        sendMessageToPlayer(nickname, game, new ResourceUpdate(resource));
-        RMIController.getInstance().sendResourceRMI(game, nickname, clients, resource);
+    public  void sendResource(String nickname, Game game, List<Integer> resource) {
+        synchronized (game){
+
+            sendMessageToPlayer(nickname, game, new ResourceUpdate(resource));
+            RMIController.getInstance().sendResourceRMI(game, nickname, clients, resource);
+        }
     }
 
     /**
@@ -393,12 +424,15 @@ public class GamesController {
      * @param game     The game instance.
      * @param message  The message to be sent.
      */
-    public synchronized void sendMessageToPlayer(String nickname, Game game, ServerToClient message) {
-        List<ServerHandler> serverSIO = clients.get(game);
-        if (serverSIO != null) {
-            for (ServerHandler serverHandler : serverSIO) {
-                if (serverHandler.getNickname().equals(nickname))
-                    serverHandler.sendMessage(message);
+    public void sendMessageToPlayer(String nickname, Game game, ServerToClient message) {
+        synchronized (game){
+
+            List<ServerHandler> serverSIO = clients.get(game);
+            if (serverSIO != null) {
+                for (ServerHandler serverHandler : serverSIO) {
+                    if (serverHandler.getNickname().equals(nickname))
+                        serverHandler.sendMessage(message);
+                }
             }
         }
     }
@@ -409,17 +443,20 @@ public class GamesController {
      *
      * @param game The game instance whose player boards are to be updated.
      */
-    public synchronized void updatePlayersBoard(Game game) {
-        HashMap<String, Stack<CardData>> boardsMap = new HashMap<>();
-        List<ServerHandler> serverSIO = clients.get(game);
-        if (serverSIO != null) {
-            for (ServerHandler serverHandler : serverSIO) {
-                boardsMap.put(serverHandler.getNickname(), serverHandler.getGame()
-                        .getPlayerByNickname(serverHandler.getNickname())
-                        .getPlayerBoard().getViewGrid());
+    public void updatePlayersBoard(Game game) {
+        synchronized (game){
+
+            HashMap<String, Stack<CardData>> boardsMap = new HashMap<>();
+            List<ServerHandler> serverSIO = clients.get(game);
+            if (serverSIO != null) {
+                for (ServerHandler serverHandler : serverSIO) {
+                    boardsMap.put(serverHandler.getNickname(), serverHandler.getGame()
+                            .getPlayerByNickname(serverHandler.getNickname())
+                            .getPlayerBoard().getViewGrid());
+                }
+                sendEveryPlayerTCP(game, new BoardsUpdate(boardsMap));
+                RMIController.getInstance().sendBoardsUpdateRMI(game, boardsMap, clients);
             }
-            sendEveryPlayerTCP(game, new BoardsUpdate(boardsMap));
-            RMIController.getInstance().sendBoardsUpdateRMI(game, boardsMap, clients);
         }
     }
 
@@ -456,8 +493,11 @@ public class GamesController {
      * @param winnerPlayers The list of players who won the game.
      */
     public void winnerUpdate(Game game, List<String> winnerPlayers) {
-        sendEveryPlayerTCP(game, new WinnerUpdate(winnerPlayers));
-        RMIController.getInstance().winnerUpdateRMI(game, winnerPlayers, clients);
+        synchronized (game){
+
+            sendEveryPlayerTCP(game, new WinnerUpdate(winnerPlayers));
+            RMIController.getInstance().winnerUpdateRMI(game, winnerPlayers, clients);
+        }
     }
 
     /**
@@ -467,8 +507,10 @@ public class GamesController {
      * @param nickname The nickname of the player whose turn it is.
      */
     public void turnsUpdate(Game game, String nickname) {
-        GamesController.getInstance().sendEveryPlayerTCP(game, new TurnsUpdate(nickname));
-        RMIController.getInstance().turnsUpdate(game, nickname, clients);
+        synchronized (game){
+            GamesController.getInstance().sendEveryPlayerTCP(game, new TurnsUpdate(nickname));
+            RMIController.getInstance().turnsUpdate(game, nickname, clients);
+        }
     }
 
     /**
@@ -478,8 +520,11 @@ public class GamesController {
      * @param marketUpdate The list of market updates.
      */
     public void marketUpdate(Game game, List<String> marketUpdate) {
-        GamesController.getInstance().sendEveryPlayerTCP(game, new MarketUpdate(marketUpdate));
-        RMIController.getInstance().MarketUpdateRMI(game, marketUpdate);
+        synchronized (game) {
+
+            GamesController.getInstance().sendEveryPlayerTCP(game, new MarketUpdate(marketUpdate));
+            RMIController.getInstance().MarketUpdateRMI(game, marketUpdate);
+        }
     }
 
     /**
@@ -489,8 +534,10 @@ public class GamesController {
      * @param messages The list of chat messages.
      */
     public void chatUpdate(Game game, Stack<String> messages) {
-        GamesController.getInstance().sendEveryPlayerTCP(game, new ChatUpdate(messages));
-        RMIController.getInstance().ChatUpdateRMI(game, messages, clients);
+        synchronized (game){
+            GamesController.getInstance().sendEveryPlayerTCP(game, new ChatUpdate(messages));
+            RMIController.getInstance().ChatUpdateRMI(game, messages, clients);
+        }
     }
 
     /**
