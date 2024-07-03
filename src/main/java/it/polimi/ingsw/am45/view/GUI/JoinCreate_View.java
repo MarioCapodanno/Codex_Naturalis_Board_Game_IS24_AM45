@@ -92,10 +92,10 @@ public class JoinCreate_View extends ClientView {
 
         toggle.setOnAction(event -> {
             if (toggle.isSelected()) {
-                toggle.setText("Join Game");
+                toggle.setText("Create Game");
                 setVisibility(true);
             } else {
-                toggle.setText("Create Game");
+                toggle.setText("Join Game");
                 setVisibility(false);
             }
         });

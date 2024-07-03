@@ -46,7 +46,7 @@
                 <String fx:value="Red" />
             </value>
         </ChoiceBox>
-        <ToggleButton fx:id="toggle" layoutX="514.0" layoutY="165.0" prefHeight="63.0" prefWidth="373.0" style="-fx-font-weight: bold; -fx-background-color: #D37429; -fx-background-radius: 15px;" text="Create Game" textFill="WHITE">
+        <ToggleButton fx:id="toggle" layoutX="514.0" layoutY="165.0" prefHeight="63.0" prefWidth="373.0" style="-fx-font-weight: bold; -fx-background-color: #D37429; -fx-background-radius: 15px;" text="Join Game" textFill="WHITE">
          <font>
             <Font size="28.0" />
          </font></ToggleButton>
