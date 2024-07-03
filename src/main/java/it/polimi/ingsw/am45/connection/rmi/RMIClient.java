@@ -8,6 +8,7 @@ import it.polimi.ingsw.am45.enumeration.TokenColor;
 import it.polimi.ingsw.am45.listener.GameListener;
 import it.polimi.ingsw.am45.utilities.CardData;
 import it.polimi.ingsw.am45.view.modelview.*;
+import javafx.application.Platform;
 
 import java.net.NoRouteToHostException;
 import java.rmi.ConnectException;
@@ -19,6 +20,10 @@ import java.rmi.server.UnicastRemoteObject;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Stack;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.TimeUnit;
 
 
 /**
@@ -31,7 +36,8 @@ public class RMIClient extends UnicastRemoteObject implements ClientInterface, C
     static String SERVER_ADDRESS;
     private static final String TEST = "test";
     private static ServerInterface stub;
-
+    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+    private ScheduledFuture<?> scheduledFuture;
     private GameListener listener;
     private static RMIClient instance;
     public String nickname;
@@ -415,6 +421,16 @@ public class RMIClient extends UnicastRemoteObject implements ClientInterface, C
         } catch (RemoteException e) {
             e.printStackTrace();
         }
+        if (scheduledFuture != null) {
+            scheduledFuture.cancel(false);
+        }
+
+        Runnable task = () -> {
+            Platform.exit();
+            System.out.println("10 seconds have passed since the last Ping");
+        };
+        scheduledFuture = scheduler.schedule(task, 10, TimeUnit.SECONDS);
+
     }
 
     /**

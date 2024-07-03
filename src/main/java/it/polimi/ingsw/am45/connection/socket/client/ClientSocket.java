@@ -5,11 +5,16 @@ import it.polimi.ingsw.am45.connection.ClientHandler;
 import it.polimi.ingsw.am45.controller.client.cts.*;
 import it.polimi.ingsw.am45.controller.server.stc.ServerToClient;
 import it.polimi.ingsw.am45.enumeration.TokenColor;
+import javafx.application.Platform;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.net.Socket;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.TimeUnit;
 
 public class ClientSocket implements Runnable, ClientHandler {
     private final Socket socket;
@@ -18,6 +23,8 @@ public class ClientSocket implements Runnable, ClientHandler {
     private ObjectOutputStream output;
     private final ObjectInputStream input;
     public String nickname;
+    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+    private ScheduledFuture<?> scheduledFuture;
 
 
     public ClientSocket(Socket socket) throws IOException {
@@ -64,6 +71,16 @@ public class ClientSocket implements Runnable, ClientHandler {
     @Override
     public synchronized void sendPong() {
         sendObject(new PongUpdate());
+
+        if (scheduledFuture != null) {
+            scheduledFuture.cancel(false);
+        }
+
+        Runnable task = () -> {
+            Platform.exit();
+            System.out.println("10 seconds have passed since the last Ping");
+        };
+        scheduledFuture = scheduler.schedule(task, 10, TimeUnit.SECONDS);
     }
 
     /**
