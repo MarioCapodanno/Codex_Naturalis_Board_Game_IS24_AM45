@@ -245,8 +245,7 @@ public class GamesController {
      */
 
     public void requestPlayingUpdate(int gameID, ServerHandler serverRequestSocket) {
-        Game game = games.get(gameID);
-        synchronized (game) {
+            Game game = games.get(gameID);
             List<ServerHandler> serverSIO = clients.get(game);
             Stack<String> nicknames = new Stack<>();
             Stack<Long> pings = new Stack<>();
@@ -273,7 +272,7 @@ public class GamesController {
                 serverRequestSocket.sendMessage(new PlayersUpdate(nicknames, pings, points));
             else
                 RMIController.getInstance().sendPlayersUpdate(nicknames, pings, points, serverRequestSocket);
-        }
+
     }
 
     /**
