@@ -8,6 +8,8 @@ The game is a 2–4 player turn-based game where players have to collect cards t
 The games are based on and MVC a pattern, where the server is the model and controller and the clients are the view that
 can be CLI or GUI. The server is also responsible for the communication between the clients and the game logic.
 
+Grade:30/30
+
 ## GRUPPO AM45
 
 - ### 259745  [Alberti Emanuele](https://github.com/...) <br>Email: emanueleemilio.alberti@mail.polimi.it
